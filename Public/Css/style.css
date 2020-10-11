@@ -89,3 +89,47 @@ img{
     padding-bottom: 6%;
 }
 /* Fin Section2 */
+
+/* Section 3 : Contact */
+.contact{
+    display: flex;
+    flex-direction: column;
+    padding: 3% 30%;
+}
+.contact h1{
+    margin: 3% 0%;
+    font-size: 40px;
+    text-align: center;
+}
+.form>div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 3% 0%;
+    font-size: 20px;
+    color: gray;
+}
+.form input, textarea{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom: groove 1px rgb(250, 243, 243);
+    outline: none;
+}
+.form label{
+    margin-bottom: 2%;
+}
+.bouton{
+    display: flex;
+    width: 80px;
+    padding-top: 2%;
+}
+.bouton>button{
+    background-color: rgb(253, 3, 107);
+    border-radius: 5px;
+    color: white;
+    border: none;
+    padding: 15% 10%;
+    font-size: 16px;
+}
+/* Fin section 3 */
