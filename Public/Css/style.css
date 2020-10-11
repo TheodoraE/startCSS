@@ -133,3 +133,34 @@ img{
     font-size: 16px;
 }
 /* Fin section 3 */
+
+/* Footer */
+.footer1{
+    background-color: rgb(5, 5, 138);
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 2% 20%;
+    color: white;
+}
+.location, .web, .about{
+    padding: 2% 5%;
+    flex: 1;
+}
+.web>i{
+    margin: 0% 3%;
+    width: 15px;
+    padding: 3%;
+    border: white solid 2px;
+    border-radius: 50%;
+}
+.about span{
+    color: turquoise;
+}
+.copyright{
+    background-color: rgb(61, 61, 94);
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 1%;
+}
